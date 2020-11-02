@@ -3,8 +3,8 @@
 
 ![rviz](https://github.com/jinwandou/XJTUCAG_Drone/blob/main/src/support_file/rviz.png)    
 
-<img src="https://github.com/jinwandou/XJTUCAG_Drone/tree/main/src/support_file/simulation.png" width = "200" height = "300" alt="simulation" align=center /><br/>    
-<img src="https://github.com/jinwandou/XJTUCAG_Drone/tree/main/src/support_file/rviz.png" width = "200" height = "300" alt="rviz" align=center /><br/>       
+<img src="https://github.com/jinwandou/XJTUCAG_Drone/blob/main/src/support_file/simulation.png" width = "200" height = "300" alt="simulation" align=center /><br/>    
+<img src="https://github.com/jinwandou/XJTUCAG_Drone/blob/main/src/support_file/rviz.png" width = "200" height = "300" alt="rviz" align=center /><br/>       
 ## user guide
 ### set simulation environment    
 1. copy automous_drone/autonomous-drone/resource/world/* and automous_drone/autonomous-drone/resource/model/* to the right location in px4 sitl_gozebo;    
