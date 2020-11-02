@@ -1,0 +1,22 @@
+<launch>
+  <include file="$(find px4)/launch/mavros_posix_sitl.launch">
+    <arg name="Y" value="0" /> <!-- Initial yaw of the spawned drone in radians. Zero means East. -->
+    <arg name="sdf" default="$(find mavlink_sitl_gazebo)/models/iris_depth_camera/iris_depth_camera.sdf"/>
+    <arg name="world" default="$(find mavlink_sitl_gazebo)/worlds/window_wooden_cylinder.world" />
+    <!--<arg name="world" default="$(find avoidance)/sim/worlds/simple_obstacle.world" />-->
+  </include>
+<!--  <node name="image_view" type="image_view" pkg="image_view" output="screen" >
+    <remap from="image" to="/whycon/image_out" />
+  </node>-->
+  <node name="whycon" type="whycon" pkg="whycon" output="screen">
+    <remap from="camera/image_rect_color" to="camera/rgb/image_raw" />
+    <remap from="camera/camera_info" to="camera/rgb/camera_info" />
+    <param name="targets" value="1" />
+    <param name="inner_diameter" value="0.08" />
+    <param name="outer_diameter" value="0.1952" />
+  </node>
+  <!--<node name="trajectory_planner" type="trajectory_planner" pkg="trajectory_planner" output="screen" />-->
+  <node name="offboard_control_1" type="offboard_control" pkg="offboard_control" output="screen" />
+  <!-- RVIZ -->
+  <node name="rviz" pkg="rviz" type="rviz" args=" -d $(find trajectory_planner)/rviz/simulation.rviz" /> 
+</launch>
