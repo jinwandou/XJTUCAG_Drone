@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="px4_autonomy" type="offboard_control" name="offboard_control" output="screen">
+
+	<rosparam command="load" file="$(find px4_autonomy)/config/Parameter_for_offboard_example.yaml" />
+
+	</node>
+</launch>

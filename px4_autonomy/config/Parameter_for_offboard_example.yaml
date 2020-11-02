@@ -1,0 +1,43 @@
+## parameter for offboard_control.cpp
+## 起飞高度
+Takeoff_height : 3.0
+Disarm_height : 0.1
+## circle trajectory param
+radius : 1.0
+linear_vel : 1.0
+time_total : 20.0
+## direction = 1 for CCW 逆时针, direction = -1 for CW 顺时针
+direction : 1.0
+## trajType, 0 for vtol, 1 for quard, 2 for circle,3 for waypoints from waypoints.txt
+trajType : 3
+
+## quard traj execute times
+exe_times : 1
+dist_tolerance : 0.2
+## quard length
+quard_length: 1.0
+## controlMode, 0 for position mode, 1 for vertical mode, 2 for acc mode;
+controlMode : 0
+
+## yawFollowTraj, 1 for control yaw forward traj, 0 for yaw not change 
+yawFollowTraj : 0
+
+## return and land after execute trajectory
+RTL: true
+
+## land type, landCurrentPos = 10, visionAidLand=11
+landtype: 11
+kpx_land: 0.2
+kpy_land: 0.2
+kpz_land: 0.1
+
+distance_thres: 0.3
+lowest_land_height: 0.4
+hdistance_thres: 0.15
+x_max_vel: 0.5
+y_max_vel: 0.5
+z_max_vel: 0.5
+
+
+##debug info printf
+debug_printf: false

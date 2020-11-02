@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>px4_autonomy</name>
+  <version>0.1.0</version>
+  <description>The px4_autonomy package</description>
+  <maintainer email="zhuchen_1118@163.com">zhuchen</maintainer>
+  <license>Apache 2.0</license>
+
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <build_depend>message_filters</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_export_depend>message_filters</build_export_depend>
+  <build_export_depend>pcl_ros</build_export_depend>
+  <build_export_depend>pcl_conversions</build_export_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>message_filters</exec_depend>
+  <exec_depend>pcl_ros</exec_depend>
+  <exec_depend>pcl_conversions</exec_depend>
+
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
