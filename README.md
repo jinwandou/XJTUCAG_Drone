@@ -1,7 +1,7 @@
 
-![simulation] (https://github.com/jinwandou/XJTUCAG_Drone/tree/main/src/support_file/simulation.png)    
+![simulation](https://github.com/jinwandou/XJTUCAG_Drone/tree/main/src/support_file/simulation.png width="200" height="200")    
 
-![rviz] (https://github.com/jinwandou/XJTUCAG_Drone/tree/main/src/support_file/rviz.png)    
+![rviz](https://github.com/jinwandou/XJTUCAG_Drone/tree/main/src/support_file/rviz.png width="200" height="200")    
 
 ## user guide
 ### set simulation environment    
