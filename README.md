@@ -1,6 +1,8 @@
 
-## user guide
+![simulation](https://github.com/jinwandou/XJTUCAG_Drone/tree/main/src/support file/simulation.png)    
+![rviz](https://github.com/jinwandou/XJTUCAG_Drone/tree/main/src/support file/rviz.png)    
 
+## user guide
 ### set simulation environment    
 1. copy automous_drone/autonomous-drone/resource/world/* and automous_drone/autonomous-drone/resource/model/* to the right location in px4 sitl_gozebo;    
 2. install dependencies according to REAdME.md in package;    
