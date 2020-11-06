@@ -11,5 +11,5 @@ automous_drone/src/resource/worlds/* -----------> ~/PX4_Firmware/Tools/sitl_gaze
 ```    
 2. install dependencies according to README.md in every package;    
 3. clone XJTUCAG_Drone to your ros woekspace src folder and use catkin_make to compile all package;    
-4. use bash file automous_woodencylinder_sitl.sh to launch all nodes;    
+4. use bash file automous_woodencylinder_sitl.sh to launch all nodes, before use this shell, **edit ros workspace path in the shell to your own path and your ros version**;    
  
