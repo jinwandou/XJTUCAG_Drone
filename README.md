@@ -1,9 +1,15 @@
-
+## introduction
+This is a automous drone demo project. in the demo, the drone will takeoff first, and the fly to scan the code fixed on the wall, if found, the drone will land before the code.
+### key word
++ px4
++ rgbd camera
++ obstacle avoidance
++ mapping
++ path planning    
 <img src="https://github.com/jinwandou/XJTUCAG_Drone/blob/main/src/support_file/simulation.png" width = "500" height = "500" alt="simulation" align=center /><br/>    
 <img src="https://github.com/jinwandou/XJTUCAG_Drone/blob/main/src/support_file/rviz.png" width = "500" height = "500" alt="rviz" align=center /><br/>       
-## user guide     
-### set simulation environment    
-1. copy src/resource/world/* , src/resource/model/* and src/resource/launch/* to the right location in px4 firmware folder; For example, my px4 firmware folder is ~/PX4_Firmware，corresponding path is as follows：  
+## how to run     
+1. set simulation environment first, copy src/resource/world/* , src/resource/model/* and src/resource/launch/* to the right location in px4 firmware folder; For example, my px4 firmware folder is ~/PX4_Firmware，corresponding path is as follows：  
 ```    
 automous_drone/src/resource/launch/wooden_mavros_sitl.launch -----------> ~/PX4_Firmware/launch/*    
 automous_drone/src/resource/model/* -----------> ~/PX4_Firmware/Tools/sitl_gazebo/models/*    
