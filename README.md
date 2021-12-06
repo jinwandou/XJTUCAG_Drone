@@ -1,13 +1,11 @@
 ## introduction
-This is a automous drone demo project. in the demo, the drone will takeoff first, and the fly to scan the code fixed on the wall, if found, the drone will land before the code.
-### key word
-+ px4
-+ rgbd camera
-+ obstacle avoidance
-+ mapping
-+ path planning    
-<img src="https://github.com/jinwandou/XJTUCAG_Drone/blob/main/src/support_file/simulation.png" width = "500" height = "500" alt="simulation" align=center /><br/>    
-<img src="https://github.com/jinwandou/XJTUCAG_Drone/blob/main/src/support_file/rviz.png" width = "500" height = "500" alt="rviz" align=center /><br/>       
+This is a automous drone demo project. in the demo, the drone will takeoff first, and the fly to scan the code fixed on the wall, if found, the drone will land before the code.    
+**key word:** px4, rgbd camera, obstacle avoidance, mapping, path planning    
+<center>
+ 
+<img src="https://github.com/jinwandou/XJTUCAG_Drone/blob/main/src/support_file/simulation.png" width = "400" height = "400"/>    <img src="https://github.com/jinwandou/XJTUCAG_Drone/blob/main/src/support_file/rviz.png" width = "400" height = "400"/>
+</center>
+
 ## how to run     
 1. set simulation environment first, refer to following website: 
 + [px4 官方user guide](https://docs.px4.io/master/en/simulation/ros_interface.html)   
